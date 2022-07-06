@@ -6,7 +6,8 @@ namespace ChopChop.GUI
 {
     public class MainMenuWindowPresenter : MonoBehaviour
     {
-        [SerializeField] private Button startButton;
+        //[SerializeField] 
+        private Button startButton;
         
         public void Show(Action onStartClick)
         {
