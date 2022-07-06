@@ -6,9 +6,9 @@ namespace ChopChop.GUI
 {
     public class MainMenuWindowPresenter : MonoBehaviour
     {
-        //[SerializeField] 
+        [SerializeField]
         private Button startButton;
-        
+
         public void Show(Action onStartClick)
         {
             startButton.onClick.RemoveAllListeners();
@@ -21,6 +21,7 @@ namespace ChopChop.GUI
         public void Hide()
         {
             this.gameObject.SetActive(false);
+
         }
     }
 }

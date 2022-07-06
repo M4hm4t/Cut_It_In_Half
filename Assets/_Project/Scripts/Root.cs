@@ -30,7 +30,7 @@ namespace ChopChop
         private void Start()
         {
             Setup();
-            mainMenuWindow.Show(OnStartClick);
+           mainMenuWindow.Show(OnStartClick);
         }
 
         private void OnStartClick()
