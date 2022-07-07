@@ -11,6 +11,8 @@ namespace ChopChop.GUI
 
         public void Show(Action onStartClick)
         {
+            Debug.Log("Show");
+
             startButton.onClick.RemoveAllListeners();
             startButton.onClick.AddListener(() => onStartClick());
             startButton.onClick.AddListener(() => Hide());
@@ -20,6 +22,7 @@ namespace ChopChop.GUI
 
         public void Hide()
         {
+            Debug.Log("Hide");
             this.gameObject.SetActive(false);
 
         }

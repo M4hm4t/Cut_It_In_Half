@@ -89,7 +89,7 @@ namespace ChopChop
 
         public void OnAxeDestroying()
         {
-            gameOverWindow.Show(LoadNextLevel);
+            gameOverWindow.Show(LoadLevel);
             _axeInputRouter.OnDisable();
             cameraPresenter.SetState(CameraPresenter.State.None);
         }
@@ -101,6 +101,11 @@ namespace ChopChop
         }
 
         private void LoadNextLevel()
+        {
+            DataManager.Clear();
+            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+        }
+        private void LoadLevel()
         {
             SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
         }
