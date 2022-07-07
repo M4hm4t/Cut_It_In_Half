@@ -9,6 +9,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 653802970058976697}
+  - component: {fileID: -4576921981575502487}
   m_Layer: 0
   m_Name: Barrel3
   m_TagString: Untagged
@@ -35,6 +36,18 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &-4576921981575502487
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 653802970058976698}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6d9ba7c02b2c33441aa685de50e5f069, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &7600259695277744472
 GameObject:
   m_ObjectHideFlags: 0
@@ -166,7 +179,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   clip: {fileID: 8300000, guid: 57dd1b3fca80a9648b8f9b95eff060fd, type: 3}
-  dynamicPart: 1
+  dynamicPart: 0
 --- !u!1 &7904734490088428249
 GameObject:
   m_ObjectHideFlags: 0
@@ -298,7 +311,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   clip: {fileID: 8300000, guid: 57dd1b3fca80a9648b8f9b95eff060fd, type: 3}
-  dynamicPart: 1
+  dynamicPart: 0
 --- !u!1 &8854752763468960841
 GameObject:
   m_ObjectHideFlags: 0
@@ -430,7 +443,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   clip: {fileID: 8300000, guid: 57dd1b3fca80a9648b8f9b95eff060fd, type: 3}
-  dynamicPart: 1
+  dynamicPart: 0
 --- !u!1 &9097285785517705137
 GameObject:
   m_ObjectHideFlags: 0
@@ -562,4 +575,4 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   clip: {fileID: 8300000, guid: 57dd1b3fca80a9648b8f9b95eff060fd, type: 3}
-  dynamicPart: 1
+  dynamicPart: 0
